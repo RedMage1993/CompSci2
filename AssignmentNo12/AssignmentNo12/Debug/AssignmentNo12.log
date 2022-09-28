@@ -1,0 +1,136 @@
+﻿Build started 4/17/2013 2:02:11 AM.
+     1>Project "C:\Users\Fritz\Documents\UNLV\SPRING 2013\CS 202\AssignmentNo12\AssignmentNo12\AssignmentNo12.vcxproj" on node 2 (ClCompile target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W4 /WX /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\fritz\documents\unlv\spring 2013\cs 202\assignmentno12\assignmentno12\linkedlisttype.h(40): error C2253: 'linkedListType<myType>::search' : pure specifier or abstract override specifier only allowed on virtual function
+                 with
+                 [
+                     myType=int
+                 ]
+                 c:\users\fritz\documents\unlv\spring 2013\cs 202\assignmentno12\assignmentno12\unorderedlinkedlist.h(8) : see reference to class template instantiation 'linkedListType<myType>' being compiled
+                 with
+                 [
+                     myType=int
+                 ]
+                 c:\users\fritz\documents\unlv\spring 2013\cs 202\assignmentno12\assignmentno12\main.cpp(31) : see reference to class template instantiation 'unorderedLinkedList<Type>' being compiled
+                 with
+                 [
+                     Type=int
+                 ]
+     1>c:\users\fritz\documents\unlv\spring 2013\cs 202\assignmentno12\assignmentno12\linkedlisttype.h(42): error C2253: 'linkedListType<myType>::insert' : pure specifier or abstract override specifier only allowed on virtual function
+                 with
+                 [
+                     myType=int
+                 ]
+     1>c:\users\fritz\documents\unlv\spring 2013\cs 202\assignmentno12\assignmentno12\linkedlisttype.h(44): error C2253: 'linkedListType<myType>::insertLast' : pure specifier or abstract override specifier only allowed on virtual function
+                 with
+                 [
+                     myType=int
+                 ]
+     1>c:\users\fritz\documents\unlv\spring 2013\cs 202\assignmentno12\assignmentno12\linkedlisttype.h(46): error C2253: 'linkedListType<myType>::deleteNode' : pure specifier or abstract override specifier only allowed on virtual function
+                 with
+                 [
+                     myType=int
+                 ]
+     1>c:\users\fritz\documents\unlv\spring 2013\cs 202\assignmentno12\assignmentno12\linkedlisttype.h(40): error C2253: 'linkedListType<myType>::search' : pure specifier or abstract override specifier only allowed on virtual function
+                 with
+                 [
+                     myType=double
+                 ]
+                 c:\users\fritz\documents\unlv\spring 2013\cs 202\assignmentno12\assignmentno12\unorderedlinkedlist.h(8) : see reference to class template instantiation 'linkedListType<myType>' being compiled
+                 with
+                 [
+                     myType=double
+                 ]
+                 c:\users\fritz\documents\unlv\spring 2013\cs 202\assignmentno12\assignmentno12\main.cpp(33) : see reference to class template instantiation 'unorderedLinkedList<Type>' being compiled
+                 with
+                 [
+                     Type=double
+                 ]
+     1>c:\users\fritz\documents\unlv\spring 2013\cs 202\assignmentno12\assignmentno12\linkedlisttype.h(42): error C2253: 'linkedListType<myType>::insert' : pure specifier or abstract override specifier only allowed on virtual function
+                 with
+                 [
+                     myType=double
+                 ]
+     1>c:\users\fritz\documents\unlv\spring 2013\cs 202\assignmentno12\assignmentno12\linkedlisttype.h(44): error C2253: 'linkedListType<myType>::insertLast' : pure specifier or abstract override specifier only allowed on virtual function
+                 with
+                 [
+                     myType=double
+                 ]
+     1>c:\users\fritz\documents\unlv\spring 2013\cs 202\assignmentno12\assignmentno12\linkedlisttype.h(46): error C2253: 'linkedListType<myType>::deleteNode' : pure specifier or abstract override specifier only allowed on virtual function
+                 with
+                 [
+                     myType=double
+                 ]
+     1>c:\users\fritz\documents\unlv\spring 2013\cs 202\assignmentno12\assignmentno12\linkedlisttype.h(40): error C2253: 'linkedListType<myType>::search' : pure specifier or abstract override specifier only allowed on virtual function
+                 with
+                 [
+                     myType=short
+                 ]
+                 c:\users\fritz\documents\unlv\spring 2013\cs 202\assignmentno12\assignmentno12\unorderedlinkedlist.h(8) : see reference to class template instantiation 'linkedListType<myType>' being compiled
+                 with
+                 [
+                     myType=short
+                 ]
+                 c:\users\fritz\documents\unlv\spring 2013\cs 202\assignmentno12\assignmentno12\main.cpp(236) : see reference to class template instantiation 'unorderedLinkedList<Type>' being compiled
+                 with
+                 [
+                     Type=short
+                 ]
+     1>c:\users\fritz\documents\unlv\spring 2013\cs 202\assignmentno12\assignmentno12\linkedlisttype.h(42): error C2253: 'linkedListType<myType>::insert' : pure specifier or abstract override specifier only allowed on virtual function
+                 with
+                 [
+                     myType=short
+                 ]
+     1>c:\users\fritz\documents\unlv\spring 2013\cs 202\assignmentno12\assignmentno12\linkedlisttype.h(44): error C2253: 'linkedListType<myType>::insertLast' : pure specifier or abstract override specifier only allowed on virtual function
+                 with
+                 [
+                     myType=short
+                 ]
+     1>c:\users\fritz\documents\unlv\spring 2013\cs 202\assignmentno12\assignmentno12\linkedlisttype.h(46): error C2253: 'linkedListType<myType>::deleteNode' : pure specifier or abstract override specifier only allowed on virtual function
+                 with
+                 [
+                     myType=short
+                 ]
+     1>c:\users\fritz\documents\unlv\spring 2013\cs 202\assignmentno12\assignmentno12\main.cpp(244): warning C4244: 'argument' : conversion from 'int' to 'const short', possible loss of data
+     1>c:\users\fritz\documents\unlv\spring 2013\cs 202\assignmentno12\assignmentno12\main.cpp(245): warning C4244: 'argument' : conversion from 'int' to 'const short', possible loss of data
+     1>c:\users\fritz\documents\unlv\spring 2013\cs 202\assignmentno12\assignmentno12\main.cpp(284): warning C4244: 'argument' : conversion from 'int' to 'const short', possible loss of data
+     1>c:\users\fritz\documents\unlv\spring 2013\cs 202\assignmentno12\assignmentno12\main.cpp(285): warning C4244: 'argument' : conversion from 'int' to 'const short', possible loss of data
+     1>c:\users\fritz\documents\unlv\spring 2013\cs 202\assignmentno12\assignmentno12\main.cpp(286): warning C4244: 'argument' : conversion from 'int' to 'const short', possible loss of data
+     1>c:\users\fritz\documents\unlv\spring 2013\cs 202\assignmentno12\assignmentno12\main.cpp(287): warning C4244: 'argument' : conversion from 'int' to 'const short', possible loss of data
+     1>c:\users\fritz\documents\unlv\spring 2013\cs 202\assignmentno12\assignmentno12\linkedlisttype.h(40): error C2253: 'linkedListType<myType>::search' : pure specifier or abstract override specifier only allowed on virtual function
+                 with
+                 [
+                     myType=std::string
+                 ]
+                 c:\users\fritz\documents\unlv\spring 2013\cs 202\assignmentno12\assignmentno12\unorderedlinkedlist.h(8) : see reference to class template instantiation 'linkedListType<myType>' being compiled
+                 with
+                 [
+                     myType=std::string
+                 ]
+                 c:\users\fritz\documents\unlv\spring 2013\cs 202\assignmentno12\assignmentno12\main.cpp(401) : see reference to class template instantiation 'unorderedLinkedList<Type>' being compiled
+                 with
+                 [
+                     Type=std::string
+                 ]
+     1>c:\users\fritz\documents\unlv\spring 2013\cs 202\assignmentno12\assignmentno12\linkedlisttype.h(42): error C2253: 'linkedListType<myType>::insert' : pure specifier or abstract override specifier only allowed on virtual function
+                 with
+                 [
+                     myType=std::string
+                 ]
+     1>c:\users\fritz\documents\unlv\spring 2013\cs 202\assignmentno12\assignmentno12\linkedlisttype.h(44): error C2253: 'linkedListType<myType>::insertLast' : pure specifier or abstract override specifier only allowed on virtual function
+                 with
+                 [
+                     myType=std::string
+                 ]
+     1>c:\users\fritz\documents\unlv\spring 2013\cs 202\assignmentno12\assignmentno12\linkedlisttype.h(46): error C2253: 'linkedListType<myType>::deleteNode' : pure specifier or abstract override specifier only allowed on virtual function
+                 with
+                 [
+                     myType=std::string
+                 ]
+     1>Done Building Project "C:\Users\Fritz\Documents\UNLV\SPRING 2013\CS 202\AssignmentNo12\AssignmentNo12\AssignmentNo12.vcxproj" (ClCompile target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.42
